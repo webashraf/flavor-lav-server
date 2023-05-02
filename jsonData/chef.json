@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "picture": "https://example.com/chef1.jpg",
+    "picture": "https://i.ibb.co/nkGFdp1/pexels-photo-4252136.jpg",
     "chef_name": "Maria Rodriguez",
     "years_of_experience": 15,
     "number_of_recipes": 150,
@@ -43,7 +43,7 @@
 
   {
     "id": 2,
-    "picture": "https://example.com/chef2.jpg",
+    "picture": "https://i.ibb.co/5vvSq6b/pexels-photo-3814446.webp",
     "chef_name": "Hiroki Matsuda",
     "years_of_experience": 10,
     "number_of_recipes": 100,
@@ -85,7 +85,7 @@
 
   {
     "id": 3,
-    "picture": "https://example.com/chef3.jpg",
+    "picture": "https://i.ibb.co/1qxVr3b/pexels-photo-3351927.webp",
     "chef_name": "Carla Ruiz",
     "years_of_experience": 20,
     "number_of_recipes": 200,
@@ -132,7 +132,7 @@
   },
   {
     "id": 4,
-    "picture": "https://example.com/chef4.jpg",
+    "picture": "https://i.ibb.co/0D6FF5K/pexels-photo-3338538.webp",
     "chef_name": "Giovanni Rossi",
     "years_of_experience": 25,
     "number_of_recipes": 300,
@@ -173,7 +173,7 @@
   },
   {
     "id": 5,
-    "picture": "https://example.com/chef5.jpg",
+    "picture": "https://i.ibb.co/xCFW8bJ/pexels-photo-6874237.webp",
     "chef_name": "Sara Lee",
     "years_of_experience": 10,
     "number_of_recipes": 100,
@@ -208,7 +208,7 @@
   },
   {
     "id": 6,
-    "picture": "https://example.com/chef6.jpg",
+    "picture": "https://i.ibb.co/THhmdv0/pexels-photo-4253302.webp",
     "chef_name": "Toshiro Nakamura",
     "years_of_experience": 15,
     "number_of_recipes": 150,
