@@ -1,0 +1,256 @@
+[
+  {
+    "id": 1,
+    "picture": "https://example.com/chef1.jpg",
+    "chef_name": "Maria Rodriguez",
+    "years_of_experience": 15,
+    "number_of_recipes": 150,
+    "total_likes": 1000,
+    "short_bio": "Chef Maria is a renowned expert in traditional Spanish cuisine.",
+    "ingredients": ["olive oil", "garlic", "tomatoes", "paprika", "saffron"],
+    "method_of_cooking": "grilling",
+    "ratings": [4.5, 4.8, 4.7, 4.6, 4.8],
+    "recipes": [
+      {
+        "name": "Paella Valenciana",
+        "ingredients": [
+          "rice",
+          "chicken",
+          "rabbit",
+          "green beans",
+          "red peppers"
+        ],
+        "instructions": "Cook chicken and rabbit with garlic, onion, and tomato. Add rice, green beans, and red peppers, and simmer until rice is cooked."
+      },
+      {
+        "name": "Gazpacho",
+        "ingredients": [
+          "tomatoes",
+          "cucumber",
+          "red onion",
+          "bell pepper",
+          "bread crumbs"
+        ],
+        "instructions": "Blend tomatoes, cucumber, red onion, and bell pepper until smooth. Add bread crumbs, olive oil, and vinegar to taste."
+      },
+      {
+        "name": "Tortilla Española",
+        "ingredients": ["potatoes", "onion", "eggs", "olive oil", "salt"],
+        "instructions": "Fry potatoes and onion in olive oil until tender. Beat eggs with salt and add to the pan. Flip the tortilla and cook until golden brown."
+      }
+    ]
+  },
+
+  {
+    "id": 2,
+    "picture": "https://example.com/chef2.jpg",
+    "chef_name": "Hiroki Matsuda",
+    "years_of_experience": 10,
+    "number_of_recipes": 100,
+    "total_likes": 500,
+    "short_bio": "Chef Hiroki is a master of Japanese fusion cuisine, blending traditional techniques with modern flavors.",
+    "ingredients": ["soba noodles", "miso", "tofu", "wasabi", "soy sauce"],
+    "method_of_cooking": "grilling, frying, steaming",
+    "ratings": [4.3, 4.5, 4.7, 4.2, 4.4],
+    "recipes": [
+      {
+        "name": "Soba Noodle Salad",
+        "ingredients": [
+          "soba noodles",
+          "tofu",
+          "cucumber",
+          "carrots",
+          "ginger dressing"
+        ],
+        "instructions": "Boil soba noodles and drain. Toss with diced tofu, cucumber, and carrots. Drizzle with ginger dressing and serve."
+      },
+      {
+        "name": "Miso-glazed Salmon",
+        "ingredients": ["salmon", "miso", "mirin", "sake", "sugar"],
+        "instructions": "Mix miso, mirin, sake, and sugar. Coat salmon and bake until glazed and cooked through."
+      },
+      {
+        "name": "Takoyaki",
+        "ingredients": [
+          "octopus",
+          "flour",
+          "eggs",
+          "dash stock",
+          "green onion"
+        ],
+        "instructions": "Mix flour, eggs, and dashi stock. Add diced octopus and green onion. Cook in a takoyaki pan until golden brown"
+      }
+    ]
+  },
+
+  {
+    "id": 3,
+    "picture": "https://example.com/chef3.jpg",
+    "chef_name": "Carla Ruiz",
+    "years_of_experience": 20,
+    "number_of_recipes": 200,
+    "total_likes": 1500,
+    "short_bio": "Chef Carla is a Mexican cuisine expert, blending traditional and modern techniques to create flavorful dishes.",
+    "ingredients": ["avocado", "corn", "tomatoes", "chiles", "cilantro"],
+    "method_of_cooking": "grilling, frying, boiling",
+    "ratings": [4.6, 4.9, 4.8, 4.7, 4.9],
+    "recipes": [
+      {
+        "name": "Guacamole",
+        "ingredients": [
+          "avocado",
+          "tomatoes",
+          "onion",
+          "jalapeno",
+          "lime juice"
+        ],
+        "instructions": "Mash avocado with diced tomatoes, onion, and jalapeno. Add lime juice and salt to taste."
+      },
+      {
+        "name": "Chiles Rellenos",
+        "ingredients": [
+          "poblano peppers",
+          "ground beef",
+          "rice",
+          "queso fresco",
+          "tomato sauce"
+        ],
+        "instructions": "Roast poblano peppers and stuff with ground beef and rice. Top with queso fresco and tomato sauce and bake until bubbly."
+      },
+      {
+        "name": "Tamales",
+        "ingredients": [
+          "cornmeal",
+          "pork",
+          "chiles",
+          "tomatillos",
+          "corn husks"
+        ],
+        "instructions": "Mix cornmeal with pork, chiles, and tomatillos. Spread on soaked corn husks and steam until cooked through."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "picture": "https://example.com/chef4.jpg",
+    "chef_name": "Giovanni Rossi",
+    "years_of_experience": 25,
+    "number_of_recipes": 300,
+    "total_likes": 2000,
+    "short_bio": "Chef Giovanni is a master of Italian cuisine, specializing in regional dishes from all over Italy.",
+    "ingredients": ["tomatoes", "mozzarella", "basil", "parmesan", "olive oil"],
+    "method_of_cooking": "baking, grilling, sautéing",
+    "ratings": [4.7, 4.9, 4.8, 4.7, 4.9],
+    "recipes": [
+      {
+        "name": "Margherita Pizza",
+        "ingredients": ["pizza dough", "tomato sauce", "mozzarella", "basil"],
+        "instructions": "Roll out pizza dough and top with tomato sauce, mozzarella, and basil. Bake until crust is golden brown."
+      },
+      {
+        "name": "Spaghetti Carbonara",
+        "ingredients": [
+          "spaghetti",
+          "pancetta",
+          "eggs",
+          "parmesan",
+          "black pepper"
+        ],
+        "instructions": "Cook spaghetti until al dente. Fry pancetta and add to cooked spaghetti. Beat eggs with parmesan and black pepper. Toss spaghetti with egg mixture until coated."
+      },
+      {
+        "name": "Osso Buco",
+        "ingredients": [
+          "veal shanks",
+          "carrots",
+          "celery",
+          "onion",
+          "white wine"
+        ],
+        "instructions": "Brown veal shanks and remove from pan. Sauté carrots, celery, and onion in the same pan. Add white wine and return veal shanks to pan. Simmer until meat is tender "
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "picture": "https://example.com/chef5.jpg",
+    "chef_name": "Sara Lee",
+    "years_of_experience": 10,
+    "number_of_recipes": 100,
+    "total_likes": 800,
+    "short_bio": "Chef Sara is a dessert specialist, with a passion for creating sweet treats that look as good as they taste.",
+    "ingredients": ["flour", "sugar", "butter", "chocolate", "vanilla"],
+    "method_of_cooking": "baking, whipping, melting",
+    "ratings": [4.5, 4.8, 4.6, 4.7, 4.9],
+    "recipes": [
+      {
+        "name": "Chocolate Cake",
+        "ingredients": ["flour", "sugar", "butter", "chocolate", "vanilla"],
+        "instructions": "Cream butter and sugar. Add eggs, flour, and melted chocolate. Bake until a toothpick comes out clean."
+      },
+      {
+        "name": "Strawberry Cheesecake",
+        "ingredients": [
+          "graham cracker crumbs",
+          "cream cheese",
+          "sugar",
+          "strawberries",
+          "whipped cream"
+        ],
+        "instructions": "Mix graham cracker crumbs with melted butter. Press into the bottom of a springform pan. Mix cream cheese and sugar. Add mashed strawberries and whipped cream. Pour over crust and chill until set."
+      },
+      {
+        "name": "Lemon Bars",
+        "ingredients": ["flour", "sugar", "butter", "lemon juice", "eggs"],
+        "instructions": "Mix flour, sugar, and butter. Press into a baking dish and bake until golden brown. Whisk together lemon juice, eggs, and sugar. Pour over crust and bake until set."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "picture": "https://example.com/chef6.jpg",
+    "chef_name": "Toshiro Nakamura",
+    "years_of_experience": 15,
+    "number_of_recipes": 150,
+    "total_likes": 1200,
+    "short_bio": "Chef Toshiro is a Japanese cuisine expert, specializing in sushi, sashimi, and other traditional dishes.",
+    "ingredients": ["rice", "seaweed", "fish", "soy sauce", "wasabi"],
+    "method_of_cooking": "sushi rolling, grilling, frying",
+    "ratings": [4.7, 4.8, 4.9, 4.6, 4.9],
+    "recipes": [
+      {
+        "name": "California Roll",
+        "ingredients": [
+          "sushi rice",
+          "avocado",
+          "crab meat",
+          "cucumber",
+          "sesame seeds"
+        ],
+        "instructions": "Roll sushi rice and avocado in seaweed. Top with crab meat, cucumber, and sesame seeds. Slice into bite-sized pieces."
+      },
+      {
+        "name": "Tempura Shrimp",
+        "ingredients": [
+          "shrimp",
+          "flour",
+          "cornstarch",
+          "baking powder",
+          "egg"
+        ],
+        "instructions": "Mix flour, cornstarch, and baking powder. Dip shrimp in beaten egg and then in flour mixture. Fry until golden brown."
+      },
+      {
+        "name": "Miso Soup",
+        "ingredients": [
+          "dashi stock",
+          "miso paste",
+          "tofu",
+          "seaweed",
+          "green onions"
+        ],
+        "instructions": "Bring dashi stock to a boil. Add miso paste and whisk until dissolved. Add diced tofu and seaweed. Simmer for a few minutes. Serve with chopped green onions on top."
+      }
+    ]
+  }
+]
