@@ -2,6 +2,7 @@
   {
     "id": 1,
     "picture": "https://i.ibb.co/nkGFdp1/pexels-photo-4252136.jpg",
+    "cover_photo": "https://i.ibb.co/DVPCX2x/pexels-photo-5779787.webp",
     "chef_name": "Maria Rodriguez",
     "years_of_experience": 15,
     "number_of_recipes": 150,
@@ -20,7 +21,7 @@
           "green beans",
           "red peppers"
         ],
-        "instructions": "Cook chicken and rabbit with garlic, onion, and tomato. Add rice, green beans, and red peppers, and simmer until rice is cooked."
+        "cooking_method": "Cook chicken and rabbit with garlic, onion, and tomato. Add rice, green beans, and red peppers, and simmer until rice is cooked."
       },
       {
         "name": "Gazpacho",
@@ -31,12 +32,12 @@
           "bell pepper",
           "bread crumbs"
         ],
-        "instructions": "Blend tomatoes, cucumber, red onion, and bell pepper until smooth. Add bread crumbs, olive oil, and vinegar to taste."
+        "cooking_method": "Blend tomatoes, cucumber, red onion, and bell pepper until smooth. Add bread crumbs, olive oil, and vinegar to taste."
       },
       {
         "name": "Tortilla Española",
         "ingredients": ["potatoes", "onion", "eggs", "olive oil", "salt"],
-        "instructions": "Fry potatoes and onion in olive oil until tender. Beat eggs with salt and add to the pan. Flip the tortilla and cook until golden brown."
+        "cooking_method": "Fry potatoes and onion in olive oil until tender. Beat eggs with salt and add to the pan. Flip the tortilla and cook until golden brown."
       }
     ]
   },
@@ -44,6 +45,7 @@
   {
     "id": 2,
     "picture": "https://i.ibb.co/5vvSq6b/pexels-photo-3814446.webp",
+    "cover_photo": "https://i.ibb.co/3W2Pb90/pexels-photo-8112382.webp",
     "chef_name": "Hiroki Matsuda",
     "years_of_experience": 10,
     "number_of_recipes": 100,
@@ -62,12 +64,12 @@
           "carrots",
           "ginger dressing"
         ],
-        "instructions": "Boil soba noodles and drain. Toss with diced tofu, cucumber, and carrots. Drizzle with ginger dressing and serve."
+        "cooking_method": "Boil soba noodles and drain. Toss with diced tofu, cucumber, and carrots. Drizzle with ginger dressing and serve."
       },
       {
         "name": "Miso-glazed Salmon",
         "ingredients": ["salmon", "miso", "mirin", "sake", "sugar"],
-        "instructions": "Mix miso, mirin, sake, and sugar. Coat salmon and bake until glazed and cooked through."
+        "cooking_method": "Mix miso, mirin, sake, and sugar. Coat salmon and bake until glazed and cooked through."
       },
       {
         "name": "Takoyaki",
@@ -78,7 +80,7 @@
           "dash stock",
           "green onion"
         ],
-        "instructions": "Mix flour, eggs, and dashi stock. Add diced octopus and green onion. Cook in a takoyaki pan until golden brown"
+        "cooking_method": "Mix flour, eggs, and dashi stock. Add diced octopus and green onion. Cook in a takoyaki pan until golden brown"
       }
     ]
   },
@@ -86,6 +88,7 @@
   {
     "id": 3,
     "picture": "https://i.ibb.co/1qxVr3b/pexels-photo-3351927.webp",
+    "cover_photo": "https://i.ibb.co/CMhdFmg/pexels-photo-5907903.jpg",
     "chef_name": "Carla Ruiz",
     "years_of_experience": 20,
     "number_of_recipes": 200,
@@ -104,7 +107,7 @@
           "jalapeno",
           "lime juice"
         ],
-        "instructions": "Mash avocado with diced tomatoes, onion, and jalapeno. Add lime juice and salt to taste."
+        "cooking_method": "Mash avocado with diced tomatoes, onion, and jalapeno. Add lime juice and salt to taste."
       },
       {
         "name": "Chiles Rellenos",
@@ -115,7 +118,7 @@
           "queso fresco",
           "tomato sauce"
         ],
-        "instructions": "Roast poblano peppers and stuff with ground beef and rice. Top with queso fresco and tomato sauce and bake until bubbly."
+        "cooking_method": "Roast poblano peppers and stuff with ground beef and rice. Top with queso fresco and tomato sauce and bake until bubbly."
       },
       {
         "name": "Tamales",
@@ -126,13 +129,14 @@
           "tomatillos",
           "corn husks"
         ],
-        "instructions": "Mix cornmeal with pork, chiles, and tomatillos. Spread on soaked corn husks and steam until cooked through."
+        "cooking_method": "Mix cornmeal with pork, chiles, and tomatillos. Spread on soaked corn husks and steam until cooked through."
       }
     ]
   },
   {
     "id": 4,
     "picture": "https://i.ibb.co/0D6FF5K/pexels-photo-3338538.webp",
+    "cover_photo": "https://i.ibb.co/PmYnrjP/pexels-photo-1482803.webp",
     "chef_name": "Giovanni Rossi",
     "years_of_experience": 25,
     "number_of_recipes": 300,
@@ -145,7 +149,7 @@
       {
         "name": "Margherita Pizza",
         "ingredients": ["pizza dough", "tomato sauce", "mozzarella", "basil"],
-        "instructions": "Roll out pizza dough and top with tomato sauce, mozzarella, and basil. Bake until crust is golden brown."
+        "cooking_method": "Roll out pizza dough and top with tomato sauce, mozzarella, and basil. Bake until crust is golden brown."
       },
       {
         "name": "Spaghetti Carbonara",
@@ -156,7 +160,7 @@
           "parmesan",
           "black pepper"
         ],
-        "instructions": "Cook spaghetti until al dente. Fry pancetta and add to cooked spaghetti. Beat eggs with parmesan and black pepper. Toss spaghetti with egg mixture until coated."
+        "cooking_method": "Cook spaghetti until al dente. Fry pancetta and add to cooked spaghetti. Beat eggs with parmesan and black pepper. Toss spaghetti with egg mixture until coated."
       },
       {
         "name": "Osso Buco",
@@ -167,13 +171,14 @@
           "onion",
           "white wine"
         ],
-        "instructions": "Brown veal shanks and remove from pan. Sauté carrots, celery, and onion in the same pan. Add white wine and return veal shanks to pan. Simmer until meat is tender "
+        "cooking_method": "Brown veal shanks and remove from pan. Sauté carrots, celery, and onion in the same pan. Add white wine and return veal shanks to pan. Simmer until meat is tender "
       }
     ]
   },
   {
     "id": 5,
     "picture": "https://i.ibb.co/xCFW8bJ/pexels-photo-6874237.webp",
+    "cover_photo": "https://i.ibb.co/SXJstns/pexels-photo-6287322.jpg",
     "chef_name": "Sara Lee",
     "years_of_experience": 10,
     "number_of_recipes": 100,
@@ -186,7 +191,7 @@
       {
         "name": "Chocolate Cake",
         "ingredients": ["flour", "sugar", "butter", "chocolate", "vanilla"],
-        "instructions": "Cream butter and sugar. Add eggs, flour, and melted chocolate. Bake until a toothpick comes out clean."
+        "cooking_method": "Cream butter and sugar. Add eggs, flour, and melted chocolate. Bake until a toothpick comes out clean."
       },
       {
         "name": "Strawberry Cheesecake",
@@ -197,18 +202,19 @@
           "strawberries",
           "whipped cream"
         ],
-        "instructions": "Mix graham cracker crumbs with melted butter. Press into the bottom of a springform pan. Mix cream cheese and sugar. Add mashed strawberries and whipped cream. Pour over crust and chill until set."
+        "cooking_method": "Mix graham cracker crumbs with melted butter. Press into the bottom of a springform pan. Mix cream cheese and sugar. Add mashed strawberries and whipped cream. Pour over crust and chill until set."
       },
       {
         "name": "Lemon Bars",
         "ingredients": ["flour", "sugar", "butter", "lemon juice", "eggs"],
-        "instructions": "Mix flour, sugar, and butter. Press into a baking dish and bake until golden brown. Whisk together lemon juice, eggs, and sugar. Pour over crust and bake until set."
+        "cooking_method": "Mix flour, sugar, and butter. Press into a baking dish and bake until golden brown. Whisk together lemon juice, eggs, and sugar. Pour over crust and bake until set."
       }
     ]
   },
   {
     "id": 6,
     "picture": "https://i.ibb.co/THhmdv0/pexels-photo-4253302.webp",
+    "cover_photo": "https://i.ibb.co/3MRrcf3/pexels-photo-6287295.jpg",
     "chef_name": "Toshiro Nakamura",
     "years_of_experience": 15,
     "number_of_recipes": 150,
@@ -227,7 +233,7 @@
           "cucumber",
           "sesame seeds"
         ],
-        "instructions": "Roll sushi rice and avocado in seaweed. Top with crab meat, cucumber, and sesame seeds. Slice into bite-sized pieces."
+        "cooking_method": "Roll sushi rice and avocado in seaweed. Top with crab meat, cucumber, and sesame seeds. Slice into bite-sized pieces."
       },
       {
         "name": "Tempura Shrimp",
@@ -238,7 +244,7 @@
           "baking powder",
           "egg"
         ],
-        "instructions": "Mix flour, cornstarch, and baking powder. Dip shrimp in beaten egg and then in flour mixture. Fry until golden brown."
+        "cooking_method": "Mix flour, cornstarch, and baking powder. Dip shrimp in beaten egg and then in flour mixture. Fry until golden brown."
       },
       {
         "name": "Miso Soup",
@@ -249,7 +255,7 @@
           "seaweed",
           "green onions"
         ],
-        "instructions": "Bring dashi stock to a boil. Add miso paste and whisk until dissolved. Add diced tofu and seaweed. Simmer for a few minutes. Serve with chopped green onions on top."
+        "cooking_method": "Bring dashi stock to a boil. Add miso paste and whisk until dissolved. Add diced tofu and seaweed. Simmer for a few minutes. Serve with chopped green onions on top."
       }
     ]
   }
