@@ -3,41 +3,98 @@
     "id": 1,
     "picture": "https://i.ibb.co/nkGFdp1/pexels-photo-4252136.jpg",
     "cover_photo": "https://i.ibb.co/DVPCX2x/pexels-photo-5779787.webp",
-    "chef_name": "Maria Rodriguez",
+    "chef_name": "Mohammad Ali Zafar",
     "years_of_experience": 15,
-    "number_of_recipes": 150,
+    "number_of_recipes": 5,
     "total_likes": 1000,
     "short_bio": "Chef Maria is a renowned expert in traditional Spanish cuisine.",
-    "ingredients": ["olive oil", "garlic", "tomatoes", "paprika", "saffron"],
     "method_of_cooking": "grilling",
-    "ratings": [4.5, 4.8, 4.7, 4.6, 4.8],
     "recipes": [
       {
-        "name": "Paella Valenciana",
+        "id": 1,
+        "name": "Hilsa Curry",
+        "ratings": 4.5,
         "ingredients": [
-          "rice",
-          "chicken",
-          "rabbit",
-          "green beans",
-          "red peppers"
+          "Hilsa fish",
+          "onion",
+          "ginger",
+          "garlic",
+          "tomato",
+          "green chili",
+          "coriander powder",
+          "cumin powder",
+          "turmeric powder",
+          "red chili powder",
+          "garam masala"
         ],
-        "cooking_method": "Cook chicken and rabbit with garlic, onion, and tomato. Add rice, green beans, and red peppers, and simmer until rice is cooked."
+        "cooking_method": "The Hilsa fish is cut into pieces and marinated with spices. Onion, ginger, and garlic are fried until golden brown, and then tomato and green chili are added to make a thick gravy. The fish pieces are then added to the gravy and cooked until done. The Hilsa curry is typically served hot with steamed rice."
       },
       {
-        "name": "Gazpacho",
+        "id": 2,
+        "name": "Smoked Hilsa",
+        "ratings": 4.8,
         "ingredients": [
-          "tomatoes",
-          "cucumber",
-          "red onion",
-          "bell pepper",
-          "bread crumbs"
+          "Hilsa fish",
+          "mustard oil",
+          "salt",
+          "turmeric powder",
+          "coriander powder",
+          "red chili powder"
         ],
-        "cooking_method": "Blend tomatoes, cucumber, red onion, and bell pepper until smooth. Add bread crumbs, olive oil, and vinegar to taste."
+        "cooking_method": "The Hilsa fish is cleaned and marinated with salt, turmeric powder, coriander powder, and red chili powder. It is then smoked over a low flame using mustard oil, which gives it a distinct smoky flavor. The smoked Hilsa is typically served as a side dish with steamed rice or as a snack with tea or beer."
       },
       {
-        "name": "Tortilla Española",
-        "ingredients": ["potatoes", "onion", "eggs", "olive oil", "salt"],
-        "cooking_method": "Fry potatoes and onion in olive oil until tender. Beat eggs with salt and add to the pan. Flip the tortilla and cook until golden brown."
+        "id": 3,
+        "name": "Hilsa Bhapa",
+        "ratings": 4.6,
+        "ingredients": [
+          "Hilsa fish",
+          "mustard paste",
+          "coconut milk",
+          "green chili",
+          "salt",
+          "turmeric powder",
+          "mustard oil",
+          "coriander powder",
+          "cumin powder"
+        ],
+        "cooking_method": "The Hilsa fish is marinated with mustard paste, green chili, salt, turmeric powder, coriander powder, cumin powder, and mustard oil. It is then placed in a banana leaf along with coconut milk and sealed tightly. The fish is then steamed until cooked. The Hilsa Bhapa is typically served hot with steamed rice and is a popular dish during special occasions."
+      },
+      {
+        "id": 4,
+        "name": "Hilsa Paturi",
+        "ratings": 4.7,
+        "ingredients": [
+          "Hilsa fish",
+          "mustard paste",
+          "coconut",
+          "green chili",
+          "banana leaf",
+          "salt",
+          "turmeric powder",
+          "cumin powder",
+          "coriander powder",
+          "mustard oil"
+        ],
+        "cooking_method": "The Hilsa fish is marinated with mustard paste, green chili, salt, turmeric powder, coriander powder, cumin powder, and mustard oil. It is then wrapped in a banana leaf along with grated coconut and sealed tightly. The fish is then steamed until cooked. The Hilsa Paturi is typically served hot with steamed rice and is a popular dish during festivals and special occasions."
+      },
+      {
+        "id": 5,
+        "name": "Hilsa Fry",
+        "ratings": 4.4,
+        "ingredients": [
+          "Hilsa fish",
+          "turmeric powder",
+          "salt",
+          "lemon juice",
+          "oil",
+          "ginger paste",
+          "garlic paste",
+          "red chili powder",
+          "coriander powder",
+          "cumin powder"
+        ],
+        "cooking_method": "The Hilsa fish is cleaned andmarinated with turmeric powder, salt, lemon juice, ginger paste, and garlic paste. It is then coated with a mixture of red chili powder, coriander powder, and cumin powder. The fish is then shallow-fried in hot oil until golden brown and crispy. The Hilsa Fry is typically served as a side dish with steamed rice and is a popular dish in coastal areas."
       }
     ]
   },
@@ -46,41 +103,96 @@
     "id": 2,
     "picture": "https://i.ibb.co/5vvSq6b/pexels-photo-3814446.webp",
     "cover_photo": "https://i.ibb.co/3W2Pb90/pexels-photo-8112382.webp",
-    "chef_name": "Hiroki Matsuda",
+    "chef_name": "Tony Khan",
     "years_of_experience": 10,
-    "number_of_recipes": 100,
+    "number_of_recipes": 4,
     "total_likes": 500,
     "short_bio": "Chef Hiroki is a master of Japanese fusion cuisine, blending traditional techniques with modern flavors.",
-    "ingredients": ["soba noodles", "miso", "tofu", "wasabi", "soy sauce"],
     "method_of_cooking": "grilling, frying, steaming",
-    "ratings": [4.3, 4.5, 4.7, 4.2, 4.4],
     "recipes": [
       {
-        "name": "Soba Noodle Salad",
+        "id": 1,
+        "name": "California Roll",
+        "ratings": 4.5,
         "ingredients": [
-          "soba noodles",
-          "tofu",
+          "sushi rice",
+          "nori",
+          "imitation crab meat",
+          "avocado",
           "cucumber",
-          "carrots",
-          "ginger dressing"
+          "wasabi",
+          "soy sauce",
+          "pickled ginger"
         ],
-        "cooking_method": "Boil soba noodles and drain. Toss with diced tofu, cucumber, and carrots. Drizzle with ginger dressing and serve."
+        "cooking_method": "To make California Roll, start by preparing the sushi rice and cutting the avocado and cucumber into thin slices. Lay out a sheet of nori on a bamboo mat and spread a layer of sushi rice on top. Flip the nori over so that the rice is on the bottom, and add a line of imitation crab meat, avocado, and cucumber. Roll the sushi tightly using the bamboo mat and cut into slices. Serve with wasabi, soy sauce, and pickled ginger on the side."
       },
       {
-        "name": "Miso-glazed Salmon",
-        "ingredients": ["salmon", "miso", "mirin", "sake", "sugar"],
-        "cooking_method": "Mix miso, mirin, sake, and sugar. Coat salmon and bake until glazed and cooked through."
-      },
-      {
-        "name": "Takoyaki",
+        "id": 2,
+        "name": "Biryani",
+        "ratings": 4.8,
         "ingredients": [
-          "octopus",
-          "flour",
-          "eggs",
-          "dash stock",
-          "green onion"
+          "basmati rice",
+          "chicken or lamb",
+          "onion",
+          "garlic",
+          "ginger",
+          "yogurt",
+          "green chili",
+          "coriander powder",
+          "cumin powder",
+          "turmeric powder",
+          "red chili powder",
+          "garam masala",
+          "bay leaf",
+          "cinnamon",
+          "cloves",
+          "oil",
+          "salt"
         ],
-        "cooking_method": "Mix flour, eggs, and dashi stock. Add diced octopus and green onion. Cook in a takoyaki pan until golden brown"
+        "cooking_method": "To make Biryani, start by marinating the chicken or lamb in a blend of yogurt and spices. The spices used include coriander powder, cumin powder, turmeric powder, red chili powder, garam masala, bay leaf, cinnamon, and cloves. The meat is then cooked with onions, garlic, ginger, and green chilies until tender. Basmati rice is cooked separately and then layered with the meat mixture. The dish is then cooked on low heat until the flavors are infused. Biryani is typically served with raita and salad."
+      },
+      {
+        "id": 3,
+        "name": "Tandoori Chicken",
+        "ratings": 4.7,
+        "ingredients": [
+          "chicken",
+          "yogurt",
+          "lemon juice",
+          "ginger",
+          "garlic",
+          "garam masala",
+          "turmeric powder",
+          "cumin powder",
+          "coriander powder",
+          "paprika",
+          "cayenne pepper",
+          "salt",
+          "oil"
+        ],
+        "cooking_method": "To make Tandoori Chicken, start by marinating the chicken in a blend of yogurt and spices. The spices used include garam masala, turmeric powder, cumin powder, coriander powder, paprika, cayenne pepper, and salt. The chicken is then cooked in a tandoor oven until charred and cooked through. Tandoori Chicken is typically served with naan bread and a side salad."
+      },
+      {
+        "id": 4,
+        "name": "Samosa",
+        "ratings": 4.6,
+        "ingredients": [
+          "potatoes",
+          "peas",
+          "onion",
+          "garlic",
+          "ginger",
+          "coriander powder",
+          "cumin powder",
+          "turmeric powder",
+          "garam masala",
+          "red chili powder",
+          "lemon juice",
+          "oil",
+          "salt",
+          "pastry dough"
+        ],
+        "cooking_method": "To make Samosas, start by preparing the pastry dough and the filling. The filling is made with potatoes and peas that are cooked with onions, garlic, and ginger along with a blend of spices, including coriander powder, cumin powder, turmeric powder, garam masala, and red chili powder. Once the filling is ready, the pastry dough is rolled out into thin circles and filled with the potato-pea mixture. The samosas are then deep-fried until golden brown and crispy. They are typically served with chutney or a spicy dipping sauce."
       }
     ]
   },
@@ -89,173 +201,299 @@
     "id": 3,
     "picture": "https://i.ibb.co/1qxVr3b/pexels-photo-3351927.webp",
     "cover_photo": "https://i.ibb.co/CMhdFmg/pexels-photo-5907903.jpg",
-    "chef_name": "Carla Ruiz",
-    "years_of_experience": 20,
-    "number_of_recipes": 200,
+    "chef_name": "Atul Hossain",
+    "years_of_experience": 7,
+    "number_of_recipes": 3,
     "total_likes": 1500,
     "short_bio": "Chef Carla is a Mexican cuisine expert, blending traditional and modern techniques to create flavorful dishes.",
-    "ingredients": ["avocado", "corn", "tomatoes", "chiles", "cilantro"],
     "method_of_cooking": "grilling, frying, boiling",
-    "ratings": [4.6, 4.9, 4.8, 4.7, 4.9],
     "recipes": [
       {
-        "name": "Guacamole",
+        "id": 1,
+        "name": "Dhaka-style mutton curry",
+        "ratings": 4.5,
         "ingredients": [
-          "avocado",
-          "tomatoes",
+          "mutton",
+          "yogurt",
           "onion",
-          "jalapeno",
-          "lime juice"
+          "garlic",
+          "ginger",
+          "chili powder",
+          "turmeric powder",
+          "cumin powder",
+          "coriander powder",
+          "garam masala",
+          "oil",
+          "salt"
         ],
-        "cooking_method": "Mash avocado with diced tomatoes, onion, and jalapeno. Add lime juice and salt to taste."
+        "cooking_method": "Dhaka-style mutton curry is a spicy and flavorful dish that is made by marinating mutton in yogurt and a variety of spices such as chili powder, turmeric powder, cumin powder, and coriander powder. The marinated meat is then cooked with onions, garlic, and ginger in a blend of oil and spices such as garam masala, resulting in a delicious and tender mutton curry."
       },
       {
-        "name": "Chiles Rellenos",
+        "id": 2,
+        "name": "Mutton Kacchi Biryani",
+        "ratings": 4.8,
         "ingredients": [
-          "poblano peppers",
-          "ground beef",
-          "rice",
-          "queso fresco",
-          "tomato sauce"
+          "mutton",
+          "basmati rice",
+          "yogurt",
+          "onion",
+          "garlic",
+          "ginger",
+          "chili powder",
+          "turmeric powder",
+          "cumin powder",
+          "coriander powder",
+          "ghee",
+          "saffron",
+          "bay leaves",
+          "cinnamon",
+          "cardamom",
+          "cloves",
+          "nutmeg",
+          "mace",
+          "salt"
         ],
-        "cooking_method": "Roast poblano peppers and stuff with ground beef and rice. Top with queso fresco and tomato sauce and bake until bubbly."
+        "cooking_method": "Mutton Kacchi Biryani is a traditional Bangladeshi dish that is made by layering marinated mutton and basmati rice in a sealed pot and cooking it slowly over low heat. The marinated mutton is cooked with a blend of yogurt and spices such as chili powder, turmeric powder, cumin powder, and coriander powder. The rice is flavored with saffron, bay leaves, cinnamon, cardamom, cloves, nutmeg, and mace, resulting in a delicious and aromatic biryani."
       },
       {
-        "name": "Tamales",
+        "id": 3,
+        "name": "Mutton Rezala",
+        "ratings": 4.3,
         "ingredients": [
-          "cornmeal",
-          "pork",
-          "chiles",
-          "tomatillos",
-          "corn husks"
+          "mutton",
+          "onion",
+          "garlic",
+          "ginger",
+          "yogurt",
+          "green chili",
+          "cumin powder",
+          "coriander powder",
+          "garam masala",
+          "oil",
+          "salt"
         ],
-        "cooking_method": "Mix cornmeal with pork, chiles, and tomatillos. Spread on soaked corn husks and steam until cooked through."
+        "cooking_method": "Mutton Rezala is a creamy and aromatic dish that is made by cooking mutton with a variety of spices such as cumin powder, coriander powder, and garam masala. The meat is cooked with onions, garlic, ginger, and green chili in a blend of oil and yogurt, resulting in a delicious and tender mutton dish. The dish is typically served with naan or rice and garnished with fresh coriander leaves and fried onions."
       }
     ]
   },
+
   {
     "id": 4,
     "picture": "https://i.ibb.co/0D6FF5K/pexels-photo-3338538.webp",
     "cover_photo": "https://i.ibb.co/PmYnrjP/pexels-photo-1482803.webp",
-    "chef_name": "Giovanni Rossi",
+    "chef_name": "Kamal Siddiqui",
     "years_of_experience": 25,
-    "number_of_recipes": 300,
+    "number_of_recipes": 3,
     "total_likes": 2000,
     "short_bio": "Chef Giovanni is a master of Italian cuisine, specializing in regional dishes from all over Italy.",
     "ingredients": ["tomatoes", "mozzarella", "basil", "parmesan", "olive oil"],
     "method_of_cooking": "baking, grilling, sautéing",
-    "ratings": [4.7, 4.9, 4.8, 4.7, 4.9],
     "recipes": [
       {
-        "name": "Margherita Pizza",
-        "ingredients": ["pizza dough", "tomato sauce", "mozzarella", "basil"],
-        "cooking_method": "Roll out pizza dough and top with tomato sauce, mozzarella, and basil. Bake until crust is golden brown."
+        "id": 1,
+        "name": "Rasgulla",
+        "ratings": 4.9,
+        "ingredients": ["milk", "lemon juice", "sugar", "water", "rose water"],
+        "cooking_method": "To make Rasgulla, start by boiling the milk and then curdling it using lemon juice. The curdled milk is then strained, and the cheese is washed under running water to remove any residual lemon flavor. The cheese is then kneaded until it is smooth and then rolled into small balls. These balls are then boiled in a sugar syrup until they are soft and spongy. The Rasgullas are then soaked in a rose water syrup and chilled before serving. They are a popular dessert in Bangladesh and India."
       },
       {
-        "name": "Spaghetti Carbonara",
+        "id": 2,
+        "name": "Beef Bhuna",
+        "ratings": 4.7,
         "ingredients": [
-          "spaghetti",
-          "pancetta",
-          "eggs",
-          "parmesan",
-          "black pepper"
-        ],
-        "cooking_method": "Cook spaghetti until al dente. Fry pancetta and add to cooked spaghetti. Beat eggs with parmesan and black pepper. Toss spaghetti with egg mixture until coated."
-      },
-      {
-        "name": "Osso Buco",
-        "ingredients": [
-          "veal shanks",
-          "carrots",
-          "celery",
+          "beef",
           "onion",
-          "white wine"
+          "garlic",
+          "ginger",
+          "tomatoes",
+          "green chili",
+          "coriander powder",
+          "cumin powder",
+          "turmeric powder",
+          "garam masala",
+          "bay leaf",
+          "oil",
+          "salt"
         ],
-        "cooking_method": "Brown veal shanks and remove from pan. Sauté carrots, celery, and onion in the same pan. Add white wine and return veal shanks to pan. Simmer until meat is tender "
+        "cooking_method": "To make Beef Bhuna, start by cooking the beef in a pan until it is browned. The beef is then removed from the pan, and onions, garlic, and ginger are added and sautéed until golden brown. Tomatoes and green chilies are then added along with a blend of spices, including coriander powder, cumin powder, turmeric powder, garam masala, bay leaf, and salt. The beef is then added back to the pan, and the dish is cooked until the meat is tender and the flavors have melded together. Beef Bhuna is typically served with rice or naan bread."
+      },
+      {
+        "id": 3,
+        "name": "Hilsa Biryani",
+        "ratings": 4.9,
+        "ingredients": [
+          "Hilsa fish",
+          "basmati rice",
+          "onion",
+          "ginger",
+          "garlic",
+          "yogurt",
+          "tomato",
+          "green chili",
+          "coriander powder",
+          "cumin powder",
+          "turmeric powder",
+          "red chili powder",
+          "garam masala",
+          "bay leaf",
+          "cinnamon",
+          "cloves"
+        ],
+        "cooking_method": "The Hilsa fish is cut into pieces and marinated with spices. Basmati rice is cooked separately and then layered with the fish pieces and fried onion, ginger, and garlic. Yogurt, tomato, green chili, coriander powder, cumin powder, turmeric powder, red chili powder, garam masala, bay leaf, cinnamon, and cloves are added to the rice and fish layers. The dish is then cooked on low heat until the flavors are infused. The Hilsa Biryani is typically served hot with raita and salad and is a popular dish during special occasions and festivals."
       }
     ]
   },
+
   {
     "id": 5,
     "picture": "https://i.ibb.co/xCFW8bJ/pexels-photo-6874237.webp",
     "cover_photo": "https://i.ibb.co/SXJstns/pexels-photo-6287322.jpg",
-    "chef_name": "Sara Lee",
-    "years_of_experience": 10,
-    "number_of_recipes": 100,
+    "chef_name": "Nayana Afroz",
+    "years_of_experience": 17,
+    "number_of_recipes": 3,
     "total_likes": 800,
     "short_bio": "Chef Sara is a dessert specialist, with a passion for creating sweet treats that look as good as they taste.",
-    "ingredients": ["flour", "sugar", "butter", "chocolate", "vanilla"],
     "method_of_cooking": "baking, whipping, melting",
-    "ratings": [4.5, 4.8, 4.6, 4.7, 4.9],
     "recipes": [
       {
-        "name": "Chocolate Cake",
-        "ingredients": ["flour", "sugar", "butter", "chocolate", "vanilla"],
-        "cooking_method": "Cream butter and sugar. Add eggs, flour, and melted chocolate. Bake until a toothpick comes out clean."
-      },
-      {
-        "name": "Strawberry Cheesecake",
+        "id": 1,
+        "name": "Fuchka",
+        "ratings": 4.8,
         "ingredients": [
-          "graham cracker crumbs",
-          "cream cheese",
-          "sugar",
-          "strawberries",
-          "whipped cream"
+          "semolina",
+          "all-purpose flour",
+          "potatoes",
+          "chickpeas",
+          "tamarind chutney",
+          "spices"
         ],
-        "cooking_method": "Mix graham cracker crumbs with melted butter. Press into the bottom of a springform pan. Mix cream cheese and sugar. Add mashed strawberries and whipped cream. Pour over crust and chill until set."
+        "cooking_method": "Fuchka is a popular street food in Bangladesh that consists of small, crispy shells made from semolina and all-purpose flour. The shells are filled with a mixture of boiled potatoes and chickpeas, and then topped with tamarind chutney and a blend of spices, such as cumin and chili powder. Fuchka is typically eaten as a snack or appetizer."
       },
       {
-        "name": "Lemon Bars",
-        "ingredients": ["flour", "sugar", "butter", "lemon juice", "eggs"],
-        "cooking_method": "Mix flour, sugar, and butter. Press into a baking dish and bake until golden brown. Whisk together lemon juice, eggs, and sugar. Pour over crust and bake until set."
+        "id": 2,
+        "name": "Chotpoti",
+        "ratings": 4.6,
+        "ingredients": [
+          "yellow peas",
+          "potatoes",
+          "tamarind pulp",
+          "spices",
+          "chopped onions"
+        ],
+        "cooking_method": "Chotpoti is a popular Bangladeshi street food that is similar to Fuchka, but is served in a bowl rather than as a stuffed shell. The dish consists of boiled yellow peas and potatoes that are mixed with tamarind pulp, spices, and chopped onions. It is typically served with a crispy snack called chanachur on top."
+      },
+      {
+        "id": 3,
+        "name": "Haleem",
+        "ratings": 4.7,
+        "ingredients": [
+          "lamb",
+          "lentils",
+          "barley",
+          "spices",
+          "yogurt",
+          "fried onions"
+        ],
+        "cooking_method": "Haleem is a hearty stew that is made with slow-cooked lamb, lentils, and barley. The dish is flavored with a blend of spices, such as cumin, coriander, and cinnamon, and is often served with a dollop of yogurt and fried onions on top. Haleem is a popular dish during the Muslim holy month of Ramadan, and is also served at weddings and other special occasions."
       }
     ]
   },
+
   {
     "id": 6,
     "picture": "https://i.ibb.co/THhmdv0/pexels-photo-4253302.webp",
     "cover_photo": "https://i.ibb.co/3MRrcf3/pexels-photo-6287295.jpg",
-    "chef_name": "Toshiro Nakamura",
+    "chef_name": "Kazi Mohammad Asadullah",
     "years_of_experience": 15,
-    "number_of_recipes": 150,
+    "number_of_recipes": 6,
     "total_likes": 1200,
     "short_bio": "Chef Toshiro is a Japanese cuisine expert, specializing in sushi, sashimi, and other traditional dishes.",
     "ingredients": ["rice", "seaweed", "fish", "soy sauce", "wasabi"],
     "method_of_cooking": "sushi rolling, grilling, frying",
-    "ratings": [4.7, 4.8, 4.9, 4.6, 4.9],
     "recipes": [
       {
-        "name": "California Roll",
+        "id": 1,
+        "name": "Chicken Kacchi Biryani",
+        "ratings": 4.7,
         "ingredients": [
-          "sushi rice",
-          "avocado",
-          "crab meat",
-          "cucumber",
-          "sesame seeds"
+          "chicken",
+          "basmati rice",
+          "ghee",
+          "yogurt",
+          "spices",
+          "potatoes"
         ],
-        "cooking_method": "Roll sushi rice and avocado in seaweed. Top with crab meat, cucumber, and sesame seeds. Slice into bite-sized pieces."
+        "cooking_method": "Chicken Kacchi Biryani is a popular dish in Bangladesh made with marinated chicken, basmati rice, ghee, yogurt, and a blend of spices such as cumin, coriander, and cinnamon. The dish is then layered with sliced potatoes and cooked in a sealed pot over low heat, allowing the flavors to meld together. The resulting biryani is a fragrant and flavorful dish that is often served at weddings and other special occasions."
       },
       {
-        "name": "Tempura Shrimp",
+        "id": 2,
+        "name": "Beef Kacchi Biryani",
+        "ratings": 4.6,
+        "ingredients": [
+          "beef",
+          "basmati rice",
+          "ghee",
+          "yogurt",
+          "spices",
+          "potatoes"
+        ],
+        "cooking_method": "Beef Kacchi Biryani is a variation of the chicken kacchi biryani, but with marinated beef as the protein instead. The beef is cooked with the same blend of spices as the chicken, and then layered with basmati rice and sliced potatoes in a sealed pot. The dish is cooked slowly over low heat, allowing the flavors to meld together and create a delicious and hearty biryani."
+      },
+      {
+        "id": 3,
+        "name": "Mutton Kacchi Biryani",
+        "ratings": 4.8,
+        "ingredients": [
+          "mutton",
+          "basmati rice",
+          "ghee",
+          "yogurt",
+          "spices",
+          "potatoes"
+        ],
+        "cooking_method": "Mutton Kacchi Biryani is another popular variation of the kacchi biryani, made with marinated mutton instead of chicken or beef. The mutton is cooked with a blend of spices and yogurt, and then layered with basmati rice and sliced potatoes in a sealed pot. The biryani is cooked slowly over low heat, allowing the flavors to meld together and create a rich and flavorful dish."
+      },
+      {
+        "id": 4,
+        "name": "Shrimp Biryani",
+        "ratings": 4.5,
         "ingredients": [
           "shrimp",
-          "flour",
-          "cornstarch",
-          "baking powder",
-          "egg"
+          "basmati rice",
+          "ghee",
+          "yogurt",
+          "spices",
+          "mint leaves"
         ],
-        "cooking_method": "Mix flour, cornstarch, and baking powder. Dip shrimp in beaten egg and then in flour mixture. Fry until golden brown."
+        "cooking_method": "Shrimp Biryani is a delicious and flavorful dish that is made with succulent shrimp, basmati rice, ghee, yogurt, and a blend of spices such as cumin, coriander, and cinnamon. The dish is then layered with mint leaves and cooked in a sealed pot over low heat, allowing the flavors to meld together. The resulting biryani is a fragrant and delicious dish that is perfect for special occasions."
       },
       {
-        "name": "Miso Soup",
+        "id": 5,
+        "name": "Vegetable Biryani",
+        "ratings": 4.3,
         "ingredients": [
-          "dashi stock",
-          "miso paste",
-          "tofu",
-          "seaweed",
-          "green onions"
+          "mixed vegetables",
+          "basmati rice",
+          "ghee",
+          "yogurt",
+          "spices",
+          "cashews"
         ],
-        "cooking_method": "Bring dashi stock to a boil. Add miso paste and whisk until dissolved. Add diced tofu and seaweed. Simmer for a few minutes. Serve with chopped green onions on top."
+        "cooking_method": "Vegetable Biryani is a flavorful and hearty dish that is made with a mix of fresh vegetables, basmati riceand a blend of spices such as cumin, coriander, and cinnamon. The vegetables are cooked with yogurt and a variety of spices, and then layered with basmati rice and cashews in a sealed pot. The dish is cooked slowly over low heat, allowing the flavors to meld together and create a delicious and satisfying vegetarian biryani."
+      },
+      {
+        "id": 6,
+        "name": "Egg Biryani",
+        "ratings": 4.2,
+        "ingredients": [
+          "eggs",
+          "basmati rice",
+          "ghee",
+          "yogurt",
+          "spices",
+          "onions"
+        ],
+        "cooking_method": "Egg Biryani is a flavorful and filling dish that is made with boiled eggs, basmati rice, ghee, yogurt, and a blend of spices such as cumin, coriander, and cinnamon. The dish is layered with fried onions and cooked in a sealed pot over low heat, allowing the flavors to meld together. The resulting biryani is a delicious and easy-to-make dish that is perfect for a quick weeknight meal."
       }
     ]
   }
